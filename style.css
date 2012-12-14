@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+}
+
+#container{
+	margin-left: 0px;
+	padding: 0px;
+	width: 1024px;
+	height: 690px;
+	border: 1px solid #BDD8DA;
+	background-color: #BDD8DA;
+}
+
+#droppable {
+	position: absolute;
+	left: 260px;
+	top: 450px;
+	height: 195px;
+	width:480px;
+	-moz-border-radius: 15px;
+	border-radius: 45px;
+	background-color: #FFFFFF;
+	font-size: 500%;
+	line-height: 2em;
+	text-align: center;
+	color:#7D9C9F;
+	
+	-moz-user-select: none;
+  	-khtml-user-select: none;
+ 	-webkit-user-select: none;
+ 	 user-select: none;
+}
+
+.letter{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	border: 1px solid #BDD8DA;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 400%;
+	color:#7D9C9F;
+	
+	-moz-user-select: none;
+  	-khtml-user-select: none;
+ 	-webkit-user-select: none;
+ 	 user-select: none;
+}

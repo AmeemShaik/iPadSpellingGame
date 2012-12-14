@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href = "style.css">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+		<script type = "text/javascript">
+			function blockMove() {
+				event.preventDefault() ;
+			}
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="lib/jquery.transit.min.js"></script>
+		<script src="lib/dragDrop.js"></script>
+		<script src="anim.js"></script>
+	</head>
+	<body ontouchmove="blockMove()">
+		<div id = "container">
+			<div id= "droppable"></div>
+		</div>
+	</body>
+</html>
